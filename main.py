@@ -16,10 +16,10 @@ with st.spinner("Loading content image..."):
 
     else:
         st.text("Image not uploaded yet. This is sample illustration, Please upload images!")
-        st.image("images/example.jpg")
+        st.image("example_in.jpg")
         st.subheader("Example detection from above are below")
         st.text("Please upload your own images and  run button on the left to detection your own image!")
-        st.image("out/example.jpg")
+        st.image("example_out.png")
         
 
 clicked = st.sidebar.button("Start detection!") and content_image
